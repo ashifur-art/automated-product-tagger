@@ -1,0 +1,16 @@
+automated-product-tagger/
+├── app/
+│   ├── main.py          ✅
+│   ├── model_utils.py   ✅
+│   └── uploads/         ✅
+├── model/
+│   ├── train.py         ✅
+│   ├── classifier.pth   ✅ (ট্রেইনের পরে ভরবে)
+│   └── labels.json      ✅ (ট্রেইনের পরে ভরবে)
+├── data/
+│   ├── train/           ✅
+│   └── test/            ✅
+├── notebooks/
+│   └── explore.ipynb    ✅
+├── requirements.txt     ✅
+└── README.md            ✅
